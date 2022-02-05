@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<meta charset="UTF-8"/>
+	<meta name = "keywords" content="Formulario María Juliana Morales Tamayo" > 
+	<title> Formulario COVID-19 </title>
+
+<!--Llamo archivos externos, CSS y JS -->
+	
+	<script src="CodigoTarea.js" type = "text/javascript" ></script>
+	<link href="CodigoEstilo.css" rel="stylesheet"> 
+	
+</head>
+
+<body> 
+
+	<h1 id = "tit1"> Formulario COVID-19 </h1>
+	<br>
+	
+<!--Registro datos -->
+	
+	<fieldset>
+	
+	<legend>Ingrese sus datos </legend>
+	
+	<br>
+	<div>
+	<label class = "form" > Nombres y Apellidos: </label> <br>
+	<input type = "text" id="nid" placeholder="Nombres y Apellidos" >
+	</div>
+	<br>
+	
+	<div>
+	<label class = "form" > Documento: </label> <br>
+	<input type = "text" id="docid" placeholder="Documento" >
+	</div>
+	<br>
+	
+	<div>
+	<label class = "form" > Dirección: </label> <br>
+	<input type = "text" id="dirid" placeholder="Dirección" >
+	</div>
+	<br>
+	
+	<div>
+	<label class = "form" > Ciudad: </label> <br>
+	<input type = "text" id="ciuid" placeholder="Ciudad" >
+	</div>
+	<br>
+	
+	<div>
+	<p> ¿Ha sido diagnosticado con COVID-19? </p>
+	<input type="radio" name="covid19" id="si" checked > Si 
+	<br>
+	<input type="radio" name="covid19" id="no" checked> No  
+	<br>
+	</div>
+	</fieldset>
+
+<!--Mostrar datos -->
+	
+	<br>
+	<div>
+	<button id="boton1" onclick="agregar()"> Registrar información </button>
+	<button id="boton2" onclick="estadisticas()"> Mostrar estadisticas </button>
+	<button id="boton3" onclick="limpiar()"> Borrar información </button>
+	<br>
+	</div>
+	<br>
+
+<!-- Mostrar estadisticas -->
+	
+	<fieldset>
+		
+	<legend> Estadísticas </legend>
+	
+	<br>
+	<label class = "form"> Personas que contestaron el formulario: </label>
+	<p class = "form" id="e1"></p>
+	<label class = "form"> Número de personas contagiadas: </label>
+	<p class = "form" id="e2"></p>
+	<label class = "form"> Porcentaje de personas contagiadas: </label>
+	<p class = "form" id="e3"></p>
+	
+	</fieldset>
+
+<!--Mostrar contagiados por ciudad -->
+
+	<br>
+	<fieldset>
+	
+	<legend>Personas contagiadas por ciudad </legend>
+	
+	<br>
+	<div>
+	<label class = "form" > Ingrese el nombre de la ciudad: </label> <br>
+	<input type = "text" id="mostrarid" placeholder="Ciudad buscada" >
+	</div>
+	
+	<br>
+	<div>
+	<button id="boton4" onclick="ciudad()"> Mostrar contagiados por ciudad </button>
+	</div>
+	<br>
+	
+	<br>
+	<label class = "form"> Listado de contagiados: </label>
+	<p class = "form" id="e4"></p>
+	
+	</fieldset>
+	
+</body>
+	
+</html>
+	

@@ -1,0 +1,74 @@
+body {
+	background: #084D6E;
+}
+
+fieldset {
+
+border: 5px solid #FFFFFF;
+}
+
+legend {
+	font-size: 20px;
+	color: white;
+	font-family: Century Gothic;
+}
+
+label {
+	color:black;	
+	cursor: pointer;
+	font-size: 22px;
+	font-family: Century Gothic;
+}
+
+label:hover {
+	color:white;	
+	cursor: pointer;
+	font-size: 22px;
+	font-family: Century Gothic;
+}
+
+h1{
+	color:white;	
+	font-size: 30px;
+	font-family: Century Gothic;
+	text-align: center;
+}
+
+p{
+	color:black;	
+	cursor: pointer;
+	font-size: 22px;
+	font-family: Century Gothic;
+}
+
+p:hover {
+	color:white;	
+	cursor: pointer;
+	font-size: 22px;
+	font-family: Century Gothic;
+}
+
+input {
+	color:black;	
+	cursor: pointer;
+	font-size: 18px;
+	font-family: Century Gothic;
+}
+
+button {
+	background: #ADD8E6;
+	color: black;
+	border-radius: 5px;
+	font-family: Century Gothic;
+	cursor: pointer;
+	padding: 5px 15 px;
+	
+}
+
+button:hover {
+	background: #5289FE;
+	color: white;
+	cursor: pointer;
+	padding: 5px 15 px;
+	
+}
